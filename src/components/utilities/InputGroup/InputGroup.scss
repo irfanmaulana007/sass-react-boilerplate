@@ -1,0 +1,11 @@
+@import './../../../Styles.scss';
+
+input, select {
+    border-bottom: 2px solid $theme-field;
+    transition: .2s ease;
+}
+
+input:focus, select:focus {
+    outline: 0!important;
+    border-bottom: 2px solid $theme-blue;
+}

@@ -1,0 +1,23 @@
+@import './../../..//Styles.scss';
+
+
+#user-menu-controll { color: $theme-gray; }
+#user-menu-controll:hover { color: $theme-dark; }
+#user-menu-controll p { line-height: 40px; }
+
+#user-menu {
+    width: 200px;
+    background-color: $theme-light;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    box-shadow: 0 4px 10px 3px rgb(0 0 0 / 10%);
+}
+
+#user-menu .caret {
+    color: $theme-light;
+    position: absolute;
+    top: -13px;
+    right: 15px;
+}
